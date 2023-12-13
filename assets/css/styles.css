@@ -1,0 +1,57 @@
+/* global */
+:root {
+    --gray-400: #444;
+    --gray-500: #353D41;
+    --white: #FFFFFF;
+}
+
+body {
+    font-size: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 7rem 0;
+}
+
+p, li {
+    color: var(--gray-400);
+    font-size: 1.4rem;
+}
+
+/* barra nav */
+header, .navbar {
+    background-color: var(--gray-500);
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+   width: 7.5rem; 
+}
+
+.navbar-brand {
+    padding: 0;
+    color: var(--white);
+}
+
+.navbar-brand:hover,
+#navbar-links a {
+    color: var(--white);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+}
